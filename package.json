@@ -1,0 +1,31 @@
+{
+  "name": "nice-css",
+  "version": "1.0.0",
+  "description": "Nice css for mobile",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "watch": "gulp --debug",
+    "build": "gulp"
+  },
+  "keywords": [
+    "nice-css",
+    "mobile-css",
+    "mobile",
+    "css",
+    "less"
+  ],
+  "author": "houjiazong@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "minimist": "^1.2.0",
+    "run-sequence": "^1.2.2"
+  }
+}
